@@ -1,2 +1,2 @@
 # DeepL_practice
-#Image_classification 실습한 것들 모음 
+# 진행한 개인 프로젝트 별 모음 
