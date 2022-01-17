@@ -1,3 +1,4 @@
+Dacon : 
 
 # 전체 설계 
 
@@ -21,6 +22,13 @@
 
 - 22.01.18 
   - 내일 작업하기 전에 내일 할 일 step 별로 작성 뒤 그거에 맞춰서 진행 
+  - To do 
+    - 어제 작업한 것 정리 
+    - Env 데이터 정제 -> LSTM에 돌릴 수 있게 (우선적으로 모델 진행 후 결측치 처리) 
+    - Chapter 2 코딩 
+    - Env 데이터 + 이미지 + Crop 넣어서 학습 
+    - 모델 결과 보고 튜닝 
+    - 시간 남으면 Env 결측치 처리 
 
 - 22.01.17 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crimama/DL_project/blob/main/22.01.17_작물병해_모델링.ipynb)
 
