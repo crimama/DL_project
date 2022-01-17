@@ -1,4 +1,4 @@
-Dacon : 
+Dacon : https://dacon.io/competitions/official/235870/overview/description
 
 # 전체 설계 
 
