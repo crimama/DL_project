@@ -22,7 +22,9 @@
 - 22.01.18 
   - 내일 작업하기 전에 내일 할 일 step 별로 작성 뒤 그거에 맞춰서 진행 
 
-- 22.01.17 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crimama/DL_study/blob/main/material/22.01.10_Super%20Resolution_example-edsr.ipynb)
+- 22.01.17 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crimama/DL_project/blob/main/22.01.17_작물병해_모델링.ipynb)
+
+
   -  처음엔 sample 50, sample 500개를 이용 하여 모델링을 시도 함 
   -  하지만 50개, 500개의 경우 데이터의 양이 적어 제대로 학습이 되지 않음 
   -  그리고 모델링을 할 때 Input : image + label, Output : crop을 해서 모델링을 설계 함, 하지만 label이 crop 예측에 도움 줄 것이라 예측했지만 되려 방해가 됨 
