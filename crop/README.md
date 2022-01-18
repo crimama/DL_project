@@ -24,9 +24,9 @@ Dacon : https://dacon.io/competitions/official/235870/overview/description
   - 내일 작업하기 전에 내일 할 일 step 별로 작성 뒤 그거에 맞춰서 진행 
   - To do 
     - 어제 작업한 것 정리 (fin)
-    - Env 데이터 정제 -> LSTM에 돌릴 수 있게 (우선적으로 모델 진행 후 결측치 처리) 
-    - Chapter 2 코딩 
-    - Env 데이터 + 이미지 + Crop 넣어서 학습 
+    - Env 데이터 정제 -> LSTM에 돌릴 수 있게 (우선적으로 모델 진행 후 결측치 처리) (fin, 우선 5867,58,9) shape로 정제 -> LSTM에 58,9 shape로 인풋) 
+    - Chapter 2 코딩 -> image, env, crops -> diseases로 설계 (fin) 
+    - Env 데이터 + 이미지 + Crop 넣어서 학습 (진행중) 
     - 모델 결과 보고 튜닝 
     - 시간 남으면 Env 결측치 처리 
 
