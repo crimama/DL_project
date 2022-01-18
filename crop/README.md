@@ -18,17 +18,35 @@ Dacon : https://dacon.io/competitions/official/235870/overview/description
  
 
 # 작업 일지 
-- 추후 고려사항 : Augmentation, label, overfitting
+- 추후 고려사항 : Augmentation, label, overfitting, using image croped by label, Diseases occ 후 multi class classification 
 
 - 22.01.18 
   - 내일 작업하기 전에 내일 할 일 step 별로 작성 뒤 그거에 맞춰서 진행 
-  - To do 
-    - 어제 작업한 것 정리 (fin)
+  - 전체 To do 
+    - 어제 작업한 것 정리 
     - Env 데이터 정제 -> LSTM에 돌릴 수 있게 (우선적으로 모델 진행 후 결측치 처리) (fin, 우선 5867,58,9) shape로 정제 -> LSTM에 58,9 shape로 인풋) 
-    - Chapter 2 코딩 -> image, env, crops -> diseases로 설계 (fin) 
-    - Env 데이터 + 이미지 + Crop 넣어서 학습 (진행중) 
+    - Phase 2 코딩 -> image, env, crops -> diseases로 설계 (
+    - Env 데이터 + 이미지 + Crop 넣어서 학습 
     - 모델 결과 보고 튜닝 
     - 시간 남으면 Env 결측치 처리 
+  - Ver1 작업 및 작업 이슈 
+    - 작업 
+      - 어제 작업한 것 정리 
+      - Env 데이터 LSTM에 도릴 수 있게 정제, 우선 적으로 -1, 58,9 형태의 shape로 정제 -> 추후 Co2 데이터 추가 필요 
+      - Phase 2 코딩 -> iamge, env, crops -> diseases 네트웤으로 설계 
+      - Env + 이미지+ crop 으로 학습 -> 약 0.86 score 나옴 but class 가 굉장히 imbalance 해서 score가 신뢰성이 낮음 -> 추후에 0-1 -> multi classificaion으로 micro 분리 
+    - 작업 중 이슈 
+      - Env 데이터를 우선 적으로 -1,58,9의 shape로 정제 해 놓았지만 이렇게 하는 것이 맞는지 의문 
+      - Env 데이터에 CO2 데이터를 사용하고 싶지만 결측값이 많음 + 10분 단위로 단위당 2개의 행 데이터가 있는데 이걸 하나로 합칠 수는 없는지 
+      - Phase 2 설계는 다 했지만 세부 옵션 (activation, 튜닝, Dense, 등)을 조정할 필요가 있음, 그리고 제대로 설계 햇는지 확인 필요 
+      - test데이터 넣어본 결과 0.85정도 나왔는데 class가 imblance 해서 정확도 차이가 심함 
+    - 추가 수정 사항 
+      - LSTM -> bidirectional 
+      - Preprocess try 
+      - Node 수 증가 
+      - Optimizer 바꾸며 확인 
+      - Flatten 이후 Hidden layer 수 통일 
+  - Ver2 작업 및 작업 이슈 
 
 - 22.01.17 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crimama/DL_project/blob/main/22.01.17_작물병해_모델링.ipynb)
 
