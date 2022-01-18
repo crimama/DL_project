@@ -18,7 +18,7 @@ Dacon : https://dacon.io/competitions/official/235870/overview/description
  
 
 # 작업 일지 
-- 추후 고려사항 : Augmentation, label
+- 추후 고려사항 : Augmentation, label, overfitting
 
 - 22.01.18 
   - 내일 작업하기 전에 내일 할 일 step 별로 작성 뒤 그거에 맞춰서 진행 
