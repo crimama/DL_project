@@ -1,5 +1,4 @@
 Dacon : https://dacon.io/competitions/official/235870/overview/description
-
 # 전체 설계 
 
 - 전체 설계 : 기존의 샘플링 코드에 나온 IMAGE, ENV를 이용해 crop - disease - risk를 한번에 예측하는 것이 아닌 crop, disease, risk를 모델 3개에 나누어 각각 예측한다 
@@ -19,6 +18,7 @@ Dacon : https://dacon.io/competitions/official/235870/overview/description
  
 
 # 작업 일지 
+- 추후 고려사항 : Augmentation, label
 
 - 22.01.18 
   - 내일 작업하기 전에 내일 할 일 step 별로 작성 뒤 그거에 맞춰서 진행 
