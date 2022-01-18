@@ -18,9 +18,9 @@ Dacon : https://dacon.io/competitions/official/235870/overview/description
  
 
 # 작업 일지 
-- 추후 고려사항 : Augmentation, label, overfitting, using image croped by label, Diseases occ 후 multi class classification 
+- 추후 고려사항 : Augmentation, label, overfitting, using image croped by label, Diseases occ 후 multi class classification , stratified k fold 
 
-- 22.01.18 
+- **22.01.18** 
   - 내일 작업하기 전에 내일 할 일 step 별로 작성 뒤 그거에 맞춰서 진행 
   - 전체 To do 
     - 어제 작업한 것 정리 
@@ -41,14 +41,21 @@ Dacon : https://dacon.io/competitions/official/235870/overview/description
       - Phase 2 설계는 다 했지만 세부 옵션 (activation, 튜닝, Dense, 등)을 조정할 필요가 있음, 그리고 제대로 설계 햇는지 확인 필요 
       - test데이터 넣어본 결과 0.85정도 나왔는데 class가 imblance 해서 정확도 차이가 심함 
     - 추가 수정 사항 
-      - LSTM -> bidirectional 
+      - LSTM -> bidirectional  
       - Preprocess try 
       - Node 수 증가 
       - Optimizer 바꾸며 확인 
       - Flatten 이후 Hidden layer 수 통일 
   - Ver2 작업 및 작업 이슈 
+    - 작업 
+      - 수정사항 적용 (optimizer 제외) : Bidirectonal, batchnormalization, node 수 변경(10->32), 
+      - 수정사항 후 확인 -> 성능, 오버피팅 향상 됨, 계속 진행 (optimizer 튜닝은 추후 진행) 
+      - preprocesss try -> 적용 했지만 큰 차이 없거나, 성능 미세하게 증가, 일단 계속 적용 
+      - 데이터 기본 전처리 -> 전처리 탭에 통합 
+      - phase 3 설계 -> 0.94 f1 score 
+      - train, test 통합 -> 통합x, 각 pahse마다 필요한 input, output이 다르기 때문 
 
-- 22.01.17 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crimama/DL_project/blob/main/22.01.17_작물병해_모델링.ipynb)
+- **22.01.17** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crimama/DL_project/blob/main/22.01.17_작물병해_모델링.ipynb)
 
 
   -  처음엔 sample 50, sample 500개를 이용 하여 모델링을 시도 함 
