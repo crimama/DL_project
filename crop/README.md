@@ -54,6 +54,15 @@ Dacon : https://dacon.io/competitions/official/235870/overview/description
       - 데이터 기본 전처리 -> 전처리 탭에 통합 
       - phase 3 설계 -> 0.94 f1 score 
       - train, test 통합 -> 통합x, 각 pahse마다 필요한 input, output이 다르기 때문 
+      - submission 데이터 로드 -> 용량이 너무 큼, 데이터 5만개 
+      - 버그 발견 : csv로드 잘못 가져옴 -> 결측치 처리 필요 
+      - csv 결측치 : '-'는 0으로 처리하고, 사이즈 294,9로 통일 (cv2.resize를 활용)
+    - 작업 이슈 
+      - csv reshape 관련 
+  - Ver3 작업 및 작업 이슈 
+    - 작업
+      -  test 데이터 이용 해서 submission 만들기
+      -  5만개 한번에 하지말고 1만개씩 혹은 5천개씩
 
 - **22.01.17** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crimama/DL_project/blob/main/22.01.17_작물병해_모델링.ipynb)
 
