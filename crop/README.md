@@ -10,6 +10,10 @@ Dacon : https://dacon.io/competitions/official/235870/overview/description
   - 우선 stacked LSTM + Efficient Net 모델 베이스라인으로 정리
   - 그 후 적용 가능한 기법들 써칭 해서 정리 -> 하나 씩 적용 
   - 버전 별 적용 사항 같이 기록 
+ - **버전 별 기록**
+  - 22.01.20_ver1 : 오버샘플링_베이스라인 
+   - 모델 자체 성능은 val_accuracy 0.9989 가 나옴, 테스트 accuracy 도 1이 나옴 
+    - 하지만 문제 : train,test, valid 중복들이 있어서 성능이 높게 나오는 것으로 생각 됨 -> oversampling 시킨 데이터들의 조작 필요 
 
 ## **22.01.19**
   - 개별 모델 occ - multi class 진행 한번 해보고 안되면 통합 모델로 진행 
