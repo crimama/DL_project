@@ -20,6 +20,12 @@ Dacon : https://dacon.io/competitions/official/235870/overview/description
 # 작업 일지 
 - 추후 고려사항 : Augmentation, label, overfitting, using image croped by label, Diseases occ 후 multi class classification , stratified k fold 
 
+- **22.01.20**
+- To do : 베이스라인 정리, 자료 써칭 
+  - 우선 stacked LSTM + Efficient Net 모델 베이스라인으로 정리
+  - 그 후 적용 가능한 기법들 써칭 해서 정리 -> 하나 씩 적용 
+  - 버전 별 적용 사항 같이 기록 
+
 - **22.01.19**
   - 개별 모델 occ - multi class 진행 한번 해보고 안되면 통합 모델로 진행 
   - 오늘 설계 : Phase1에는 모두 들어감, Phase2-0 에선 Disease 가 0인지 1인지만 구분, Phase2-1 에선 1들만 갖고 
