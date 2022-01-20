@@ -10,38 +10,38 @@ Dacon : https://dacon.io/competitions/official/235870/overview/description
   - 우선 stacked LSTM + Efficient Net 모델 베이스라인으로 정리
   - 그 후 적용 가능한 기법들 써칭 해서 정리 -> 하나 씩 적용 
   - 버전 별 적용 사항 같이 기록 
-   - **버전 별 기록**
-     - 22.01.20_ver1 : 오버샘플링_베이스라인 
-       - 모델 자체 성능은 val_accuracy 0.9989 가 나옴, 테스트 accuracy 도 1이 나옴 
-       - 하지만 문제 : train,test, valid 중복들이 있어서 성능이 높게 나오는 것으로 생각 됨 -> oversampling 시킨 데이터들의 조작 필요 
-       - 결과 : 제출 : 0.82 -> 오버샘플링 하면서 중복되는 데이터들이 너무 많아 되려 오버피팅이 심해진 것으로 예측 됨
-     - 22.01.21_ver2 : 랜덤어그먼테이션_베이스라인
-       - stacked LSTM + Efficient Net, 이미지 rotate augmentation + random augmentation
-       - submission F1 score 0.88 나옴, 파기 
-     - 22.01.21_ver3 : 베이스라인 다시 진행 
-       - stacked LSTM + Efficient Net, 이미지 rotate augmentation
+ - **버전 별 기록**
+   - 22.01.20_ver1 : 오버샘플링_베이스라인 
+     - 모델 자체 성능은 val_accuracy 0.9989 가 나옴, 테스트 accuracy 도 1이 나옴 
+     - 하지만 문제 : train,test, valid 중복들이 있어서 성능이 높게 나오는 것으로 생각 됨 -> oversampling 시킨 데이터들의 조작 필요 
+     - 결과 : 제출 : 0.82 -> 오버샘플링 하면서 중복되는 데이터들이 너무 많아 되려 오버피팅이 심해진 것으로 예측 됨
+   - 22.01.21_ver2 : 랜덤어그먼테이션_베이스라인
+     - stacked LSTM + Efficient Net, 이미지 rotate augmentation + random augmentation
+     - submission F1 score 0.88 나옴, 파기 
+   - 22.01.21_ver3 : 베이스라인 다시 진행 
+     - stacked LSTM + Efficient Net, 이미지 rotate augmentation
 
 ## **22.01.19**
-- 개별 모델 occ - multi class 진행 한번 해보고 안되면 통합 모델로 진행 
-- 오늘 설계 : Phase1에는 모두 들어감, Phase2-0 에선 Disease 가 0인지 1인지만 구분, Phase2-1 에선 1들만 갖고 
+  - 개별 모델 occ - multi class 진행 한번 해보고 안되면 통합 모델로 진행 
+  - 오늘 설계 : Phase1에는 모두 들어감, Phase2-0 에선 Disease 가 0인지 1인지만 구분, Phase2-1 에선 1들만 갖고 
 - **버전 별 기록**
-- Ver1 작업 및 작업 이슈 
-- disease 인코딩 - 디코딩 
-- Phase 2 다시 설계 -> 실패, 파기 
-- envs 정규화 -> val_acc 감소 함 : 파기 
-- envs co2 사용 -> 보류 
-- csvs 정제 
-- shape 확인 
-- 이미지 median filter 
-- rotated image multi head 로 
-- Ver2 작업 및 작업 이슈 
-- 22.01.19_작물병해_통합라벨모델링_2 <- csv 파일 정제에 집중
-- 단순하게 결측치를 매꾸는 것은 불가능 
-- 하지만 이슬점, CO2 매우 중요한 변수들 -> 논문들에서 보면 이슬점과 CO2가 작물 재배에 영향을 줌 
-- 따라서 선형 또는 예측 모델을 이용 해서 CO2 변수를 채우고 이를 다시 시계열 예측을 통해 shape를 맞춰 최종 모델 학습에 이용 
-- 필요 모델 
-- 이슬점 결측치  -> ffill
-- co2 예측 
+  - Ver1 작업 및 작업 이슈 
+    - disease 인코딩 - 디코딩 
+    - Phase 2 다시 설계 -> 실패, 파기 
+    - envs 정규화 -> val_acc 감소 함 : 파기 
+    - envs co2 사용 -> 보류 
+    - csvs 정제 
+    - shape 확인 
+    - 이미지 median filter 
+    - rotated image multi head 로 
+  - Ver2 작업 및 작업 이슈 
+    - 22.01.19_작물병해_통합라벨모델링_2 <- csv 파일 정제에 집중
+    - 단순하게 결측치를 매꾸는 것은 불가능 
+    - 하지만 이슬점, CO2 매우 중요한 변수들 -> 논문들에서 보면 이슬점과 CO2가 작물 재배에 영향을 줌 
+    - 따라서 선형 또는 예측 모델을 이용 해서 CO2 변수를 채우고 이를 다시 시계열 예측을 통해 shape를 맞춰 최종 모델 학습에 이용 
+    - 필요 모델 
+    - 이슬점 결측치  -> ffill
+    - co2 예측 
          
 
 ## **22.01.18** 
