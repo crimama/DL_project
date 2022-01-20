@@ -20,13 +20,13 @@ Dacon : https://dacon.io/competitions/official/235870/overview/description
 # 작업 일지 
 - 추후 고려사항 : Augmentation, label, overfitting, using image croped by label, Diseases occ 후 multi class classification , stratified k fold 
 
-- **22.01.20**
+## **22.01.20**
 - To do : 베이스라인 정리, 자료 써칭 
   - 우선 stacked LSTM + Efficient Net 모델 베이스라인으로 정리
   - 그 후 적용 가능한 기법들 써칭 해서 정리 -> 하나 씩 적용 
   - 버전 별 적용 사항 같이 기록 
 
-- **22.01.19**
+## **22.01.19**
   - 개별 모델 occ - multi class 진행 한번 해보고 안되면 통합 모델로 진행 
   - 오늘 설계 : Phase1에는 모두 들어감, Phase2-0 에선 Disease 가 0인지 1인지만 구분, Phase2-1 에선 1들만 갖고 
   - Ver1 작업 및 작업 이슈 
@@ -49,12 +49,7 @@ Dacon : https://dacon.io/competitions/official/235870/overview/description
       - 
          
 
-
-
-
-
-
-- **22.01.18** 
+## **22.01.18** 
   - 내일 작업하기 전에 내일 할 일 step 별로 작성 뒤 그거에 맞춰서 진행 
   - 전체 To do 
     - 어제 작업한 것 정리 
@@ -102,7 +97,7 @@ Dacon : https://dacon.io/competitions/official/235870/overview/description
       -  crop-disease-risk간 한정된 경우의 수가 있는데, 모델 학습 시 이 경우의 수 보다 더 많게 경우의 수가 계산 됨 -> 오차 증가 
       -  경우의 수를 제한 시킬 필요가 있음 
 
-- **22.01.17** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crimama/DL_project/blob/main/22.01.17_작물병해_모델링.ipynb)
+## **22.01.17** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crimama/DL_project/blob/main/22.01.17_작물병해_모델링.ipynb)
 
 
   -  처음엔 sample 50, sample 500개를 이용 하여 모델링을 시도 함 
