@@ -14,6 +14,7 @@ Dacon : https://dacon.io/competitions/official/235870/overview/description
   - 22.01.20_ver1 : 오버샘플링_베이스라인 
    - 모델 자체 성능은 val_accuracy 0.9989 가 나옴, 테스트 accuracy 도 1이 나옴 
     - 하지만 문제 : train,test, valid 중복들이 있어서 성능이 높게 나오는 것으로 생각 됨 -> oversampling 시킨 데이터들의 조작 필요 
+    - 결과 : 제출 : 0.82 -> 오버샘플링 하면서 중복되는 데이터들이 너무 많아 되려 오버피팅이 심해진 것으로 예측 됨
 
 ## **22.01.19**
   - 개별 모델 occ - multi class 진행 한번 해보고 안되면 통합 모델로 진행 
