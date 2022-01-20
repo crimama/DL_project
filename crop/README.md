@@ -1,22 +1,7 @@
 Dacon : https://dacon.io/competitions/official/235870/overview/description
 # 전체 설계 
-
-- 전체 설계 : 기존의 샘플링 코드에 나온 IMAGE, ENV를 이용해 crop - disease - risk를 한번에 예측하는 것이 아닌 crop, disease, risk를 모델 3개에 나누어 각각 예측한다 
-- Phase 1 
-  - input을 image, output 을 crop으로 하여 예측 
-  - Efficient Net을 Conv layer로 하여 모델 설계 
-    - Resnet 50을 사용 했지만 Efficient net이 훨씬 accuracy가 높음 
-- Phase 2 
-  - input을 image, env, crop으로, output을 disease로 하여 예측 
-  - image는 Efficient Net, env는 LSTM, crop은 Dense로 하여 multi head로 진행 
-- Phase 3 
-  - input을 image, env,crop,disease, output 을 risk로 하여 예측 
-  - image : Efficient Net, Env : LSTM, crop : Dense, Disease : Dense로 Multi Head로 진행 
-- Phase 4 
-  - test 데이터를 이용 해 Phase 1부터 Phase 3까지 진행, 이때 각 crop, disease, risk는 predict를 통해 나온 결과를 이용 
-  - 최종 Phase1 ~ Phase 3를 통해 Predict된 crop-disease-risk와 test_y를 비교해 accuracy 측정 
+- 베이스 라인 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crimama/DL_project/blob/main/crop/crop_diseases_classifcation_baseline)
  
-
 # 작업 일지 
 - 추후 고려사항 : Augmentation, label, overfitting, using image croped by label, Diseases occ 후 multi class classification , stratified k fold 
 
