@@ -20,6 +20,34 @@ Dacon : https://dacon.io/competitions/official/235870/overview/description
 # 작업 일지 
 - 추후 고려사항 : Augmentation, label, overfitting, using image croped by label, Diseases occ 후 multi class classification , stratified k fold 
 
+- **22.01.19**
+  - 개별 모델 occ - multi class 진행 한번 해보고 안되면 통합 모델로 진행 
+  - 오늘 설계 : Phase1에는 모두 들어감, Phase2-0 에선 Disease 가 0인지 1인지만 구분, Phase2-1 에선 1들만 갖고 
+  - Ver1 작업 및 작업 이슈 
+    - disease 인코딩 - 디코딩 
+    - Phase 2 다시 설계 -> 실패, 파기 
+    - envs 정규화 -> val_acc 감소 함 : 파기 
+    - envs co2 사용 -> 보류 
+    - csvs 정제 
+      - shape 확인 
+    - 이미지 median filter 
+    - rotated image multi head 로 
+   - Ver2 작업 및 작업 이슈 
+    - 22.01.19_작물병해_통합라벨모델링_2 <- csv 파일 정제에 집중
+    - 단순하게 결측치를 매꾸는 것은 불가능 
+    - 하지만 이슬점, CO2 매우 중요한 변수들 -> 논문들에서 보면 이슬점과 CO2가 작물 재배에 영향을 줌 
+    - 따라서 선형 또는 예측 모델을 이용 해서 CO2 변수를 채우고 이를 다시 시계열 예측을 통해 shape를 맞춰 최종 모델 학습에 이용 
+    - 필요 모델 
+      - 이슬점 결측치  -> ffill
+      - co2 예측 
+      - 
+         
+
+
+
+
+
+
 - **22.01.18** 
   - 내일 작업하기 전에 내일 할 일 step 별로 작성 뒤 그거에 맞춰서 진행 
   - 전체 To do 
@@ -63,6 +91,10 @@ Dacon : https://dacon.io/competitions/official/235870/overview/description
     - 작업
       -  test 데이터 이용 해서 submission 만들기
       -  5만개 한번에 하지말고 1만개씩 혹은 5천개씩
+      -  submissiono 1만개씩 나눠서 해서 성공 
+      -  하지만 정확도가 굉장히 낮음 
+      -  crop-disease-risk간 한정된 경우의 수가 있는데, 모델 학습 시 이 경우의 수 보다 더 많게 경우의 수가 계산 됨 -> 오차 증가 
+      -  경우의 수를 제한 시킬 필요가 있음 
 
 - **22.01.17** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crimama/DL_project/blob/main/22.01.17_작물병해_모델링.ipynb)
 
