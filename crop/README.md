@@ -7,7 +7,9 @@ Dacon : https://dacon.io/competitions/official/235870/overview/description
 
 ## **22.01.22**
 - To do 
- - 이미지만 갖고 학습 실행 
+ - 이미지만 갖고 학습 실행 -> LB : 0.611, test-f1 score = 0.88
+ - preprocessed_image 만 실행 -> test_score = 0.89 / LB : 0.63
+ - preprocess_input + 정규화된 이미지만 -> test_scoer = 0.89 / LB : 0.63
  - cross validation 시도 
  - csv 파일 padding -> 0 
 
