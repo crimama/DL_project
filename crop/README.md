@@ -5,6 +5,11 @@ Dacon : https://dacon.io/competitions/official/235870/overview/description
 # 작업 일지 
 - 추후 고려사항 : Augmentation, label, overfitting, using image croped by label, Diseases occ 후 multi class classification , stratified k fold 
 
+## **22.01.23**
+- **Version Record**
+  - 22.01.23_Ver1 : Reducing Dense Layer and node 
+    - Test score : 0.95/ LB score = 0.83  
+
 ## **22.01.22**
 - To do 
  - 이미지만 갖고 학습 실행 -> LB : 0.611, test-f1 score = 0.88
