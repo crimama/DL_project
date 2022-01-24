@@ -12,7 +12,7 @@ Dacon : https://dacon.io/competitions/official/235870/overview/description
   - 결과 : LB 0.88로 상승 
   - 파일 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crimama/DL_project/blob/main/crop/Version_files/22.01.24_Ver1_%EC%9E%91%EB%AC%BC%EB%B3%91%ED%95%B4_csv%EC%82%AC%EC%9D%B4%EC%A6%88_144)
 - Ver2 : crop 을 이용해 3Head 네트웤 구성 
-  - 세부 내용 : https://github.com/crimama/DL_project/blob/main/crop/Version_Record/22.01.24/Ver3.3Head
+  - 세부 내용 : https://github.com/crimama/DL_project/blob/main/crop/Version_Record/22.01.24/Ver2.3Head_with_crop.md
   - 결과 : Lb 0.86으로 효과 없음 
   - 파일 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crimama/DL_project/blob/main/crop/Version_files/22.01.24_Ver2_%EC%9E%91%EB%AC%BC%EB%B3%91%ED%95%B4_3Head_crop)
   
