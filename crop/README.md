@@ -6,6 +6,12 @@ Dacon : https://dacon.io/competitions/official/235870/overview/description
 - 추후 고려사항 : Augmentation, label, overfitting, using image croped by label, Diseases occ 후 multi class classification , stratified k fold 
 - 23일 이후 작업 일지 : (https://github.com/crimama/DL_project/tree/main/crop/Version_Record)
 
+##**22.01.24**
+- Ver1 : csv 144로 resize 축소 
+  - 세부 내용 : 
+  - 결과 : LB 0.88로 상승 
+  - 파일 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crimama/DL_project/blob/main/crop/Version_files/22.01.24_Ver1_%EC%9E%91%EB%AC%BC%EB%B3%91%ED%95%B4_csv%EC%82%AC%EC%9D%B4%EC%A6%88_144)
+
 ## **22.01.23**
 - **Version Record**
   - 22.01.23_Ver1 : Reducing Dense Layer and node 
