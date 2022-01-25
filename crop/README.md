@@ -7,7 +7,7 @@ Dacon : https://dacon.io/competitions/official/235870/overview/description
 - 23일 이후 작업 일지 : (https://github.com/crimama/DL_project/tree/main/crop/Version_Record)
 
 ## **22.01.25** 
--Ver1 : bbox resize 
+-Ver1 : bbox resize + rotating bbox 
   - 세부 내용 : https://github.com/crimama/DL_project/blob/main/crop/Version_Record/22.01.25/Ver1.bbox_resize
   - 결과 : 
   - 파일 : 
