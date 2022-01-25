@@ -1,6 +1,10 @@
 Dacon : https://dacon.io/competitions/official/235870/overview/description
 # 전체 설계 
 - 베이스 라인 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crimama/DL_project/blob/main/crop/crop_diseases_classifcation_baseline)
+
+- efficient net v2 적용 
+- confusion matrix 보고 예측 안되는 특정 몇 label의 데이터만 오버 샘플링 
+- 토크에 올라 와 있던 것 적용 
  
 # 작업 일지 
 - 추후 고려사항 : Augmentation, label, overfitting, using image croped by label, Diseases occ 후 multi class classification , stratified k fold 
