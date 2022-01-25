@@ -27,7 +27,7 @@ Dacon : https://dacon.io/competitions/official/235870/overview/description
   - 파일 : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crimama/DL_project/blob/main/crop/Version_files/22.01.24_Ver3_작물병해_bbox)
 - Ver4 : Random Preprocess 추가 
    - 세부 내용 : https://github.com/crimama/DL_project/blob/main/crop/Version_Record/22.01.24/Ver4.Randompreprocess.md
-   - 결과 : LB 0.9007으로 미약하게나마 상승 <-----**이걸로 추후 진행**
+   - 결과 : LB 0.9007으로 미약하게나마 상승 <-----**이걸로 추후 진행** (rotate augmentation 미적용 된것임)
    - 파일 : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crimama/DL_project/blob/main/crop/Version_files/22_01_24_Ver4_작물병해_bbox_RandomPreprocess.ipynb)
 - Ver 5 : Image Padding 
   - 세부 내용 :  https://github.com/crimama/DL_project/blob/main/crop/Version_Record/22.01.24/Ver5.ImagePadding.md
