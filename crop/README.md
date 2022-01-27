@@ -10,6 +10,10 @@ Dacon : https://dacon.io/competitions/official/235870/overview/description
 - 추후 고려사항 : Augmentation, label, overfitting, using image croped by label, Diseases occ 후 multi class classification , stratified k fold 
 - 23일 이후 작업 일지 : (https://github.com/crimama/DL_project/tree/main/crop/Version_Record)
 
+## **22.01.27**
+- Ver1 : Efficient net v2 small 
+- - Ver4 : Random Preprocess 추가 <- 이거 베이스라인으로 efficient net v2 small적용 
+
 ## **22.01.25** 
 -Ver1 : bbox resize + rotating bbox 
   - 세부 내용 : https://github.com/crimama/DL_project/blob/main/crop/Version_Record/22.01.25/Ver1.bbox_resize
