@@ -4,7 +4,7 @@
 
 # **작업일지**
 
-## **22.02.11** 오늘자 최종 결과물 : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crimama/DL_project/blob/main/Timeseries/22.02.11_2_전해탈지_시간작업_CM.ipynb)
+## **22.02.11** 오늘자 최종 결과물 : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crimama/DL_project/blob/main/CT_Classification/Daily_Code/22.02.11_1_초기작업.ipynb)
 
 - Ver1 : Preprocessing 작업 진행 
     - 저번 작업 내용 
