@@ -5,7 +5,8 @@
 
 # **작업일지**
 
-## **22.02.11**
+## **22.02.11** 오늘자 최종 결과물 : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crimama/DL_project/blob/main/Timeseries/22.02.11_2_전해탈지_시간작업_CM.ipynb)
+
 - Ver1 : Preprocessing 작업 진행 
     - 작업 내용 
       - 기존에 사용하던 변수 대신 평균값 간의 편차를 이용
