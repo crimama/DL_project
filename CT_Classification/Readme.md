@@ -4,7 +4,7 @@
 
 # **작업일지**
 
-## **22.02.13**
+## **22.02.13**[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crimama/DL_project/blob/main/CT_Classification/Daily_Code/22.02.13_기본Pipeline구축.ipynb)
 ### 저번 작업 내용
 
 - 이미지 갯수 확인
