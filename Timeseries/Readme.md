@@ -5,13 +5,20 @@
 
 # **작업일지**
 
-## **22.01.14** 오늘자 최종 결과물 : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crimama/DL_project/blob/main/Timeseries/22.02.11_2_전해탈지_시간작업_CM.ipynb)
+## **22.01.14** 오늘자 최종 결과물 : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crimama/DL_project/blob/main/Timeseries/22.02.14_IF.ipynb)
 - Ver1 : isolation forest 적용 
     - 작업 내용 
       - 기존에 작업한 것 거의 그대로 하고 모델만 isolation forest 적용 
       - 우선은 따로 파라미터 튜닝 없이 isolation forest적용 후 결과 보고 튜닝 진행 
       - 변수의 경우 편차 사용 + train-test-split 350:200:226 비율로 진행 
       - 추후 하이퍼 파라미터 다시 고려 
+    - 결과 
+      - IF를 사용하면 모델이 가볍고 쉽게 탐지 가능 
+      - train - test 400 : 326 일 때 가장 잘 나옴 
+      - n_components = 120 인 경우 그리고 origin 변수랑 편차 변수 모두 사용시 recall 0.3, precision 1 나옴 
+      - timestamp는 결과 좋지 못함 
+    - 내일
+      - Regression 후 거리차 분포 이용해서 탐지하는 방식으로 진행 
 
 ## **22.02.11** 오늘자 최종 결과물 : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crimama/DL_project/blob/main/Timeseries/22.02.11_2_전해탈지_시간작업_CM.ipynb)
 
