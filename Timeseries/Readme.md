@@ -5,7 +5,8 @@
 
 # **작업일지**
 
-## **22.01.14** 오늘자 최종 결과물 : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crimama/DL_project/blob/main/Timeseries/22.02.14_IF.ipynb)
+## **22.01.14** 오늘자 최종 결과물 : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crimama/DL_project/blob/main/Timeseries/22.02.13_전해탈지_IF.ipynb)
+
 - Ver1 : isolation forest 적용 
     - 작업 내용 
       - 기존에 작업한 것 거의 그대로 하고 모델만 isolation forest 적용 
