@@ -4,6 +4,15 @@
 
 # **작업일지**
 
+## **22.02.14**  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crimama/DL_project/blob/main/CT_Classification/Daily_Code/기본모델_Pipeline.ipynb)
+- 작업 내용 
+    -  사용자 정의 함수들 init.py에 넣어서 간결화 
+    -  필요 없는 확인용 코드들 제거 
+    -  제너레이터 구축 
+    -  기본 모델 구축 (Conv 3D로만 되어 있는 단순 모델) 
+    -  모델 시범 구동 
+ 
+
 ## **22.02.13**  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crimama/DL_project/blob/main/CT_Classification/Daily_Code/22.02.13_기본Pipeline구축.ipynb)
 ### 저번 작업 내용
 
@@ -13,7 +22,6 @@
 - 초기 설정 함수들 Py로 모듈 화
 
 ### 오늘 작업 내용
-
 - 이슈 픽스
     - 날짜 → 1차의 날짜 사용, 이미지는 모두 1차라 간주
     - 이미지 장수 조절 부문 → 앞뒤로 자르는 것이 아니라 0 ~ 18번째의 이미지 사용
