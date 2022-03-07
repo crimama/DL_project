@@ -13,7 +13,9 @@
 
 작업 일지 및 폴더 : (https://github.com/crimama/DL_project/tree/main/Timeseries)
 
-# 환자의 CT 이미지 + 환자 정보를 이용한 환자 건강 정보 예측 및 분류 
+# 환자의 Brain mri 이미지 + 환자 정보를 이용한 환자 건강 정보 예측 및 분류 
+
+![image](https://user-images.githubusercontent.com/92499881/157001358-f1329565-c9a6-4d2f-aeed-16b4ddd54e55.png)
 
 작업 일지 및 폴더 : (https://github.com/crimama/DL_project/tree/main/CT_Classification)
-![image](https://user-images.githubusercontent.com/92499881/157001358-f1329565-c9a6-4d2f-aeed-16b4ddd54e55.png)
+
