@@ -1,5 +1,4 @@
-# DeepL_practice
-진행한 개인 프로젝트
+# 진행한 개인 프로젝트
 
 # Run-way Functions: Predict Reconfigurations at US Airports (Open Arena)
 (https://github.com/crimama/Airport_Configuration)
