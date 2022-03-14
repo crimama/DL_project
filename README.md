@@ -6,7 +6,7 @@
 
 
 # 농업 환경 변화에 따른 작물 병해 진단 AI 경진대회
-(https://github.com/crimama/DL_project/tree/main/crop)
+(https://github.com/crimama/Dacon_LG_AI_Competition_2022)
 
 
 # 전해탈지 시계열 데이터의 이상 탐지 프로젝트 
