@@ -10,7 +10,7 @@
 
 
 # 전해탈지 시계열 데이터의 이상 탐지 프로젝트 
- (https://github.com/crimama/DL_project/tree/main/Timeseries)
+(https://github.com/crimama/Project_Anomaly_Detection)
 
 # CNN 을 이용한 웨이퍼 불량 분류 
 (https://github.com/crimama/DL_project/tree/main/wafer)
