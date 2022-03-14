@@ -13,7 +13,7 @@
 (https://github.com/crimama/Project_Anomaly_Detection)
 
 # CNN 을 이용한 웨이퍼 불량 분류 
-(https://github.com/crimama/DL_project/tree/main/wafer)
+(https://github.com/crimama/Wafer_Classification)
 
 
 
