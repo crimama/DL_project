@@ -1,6 +1,9 @@
 # DeepL_practice
 진행한 개인 프로젝트
 
+# Run-way Functions: Predict Reconfigurations at US Airports (Open Arena)
+(https://github.com/crimama/Airport_Configuration)
+
 # 환자의 Brain mri 이미지 + 환자 정보를 이용한 환자 건강 정보 예측 및 분류 
 (https://github.com/crimama/MRI_classification)
 
@@ -15,8 +18,7 @@
 # CNN 을 이용한 웨이퍼 불량 분류 
 (https://github.com/crimama/Wafer_Classification)
 
-# Run-way Functions: Predict Reconfigurations at US Airports (Open Arena)
-(https://github.com/crimama/Airport_Configuration)
+
 
 
 
