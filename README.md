@@ -23,6 +23,16 @@
    - 256,256,19는 네트워크 내부에서 224,224,3 형태로 변형 되고 통해 Feature Extraction 진행 
    - Pretrained model은 Res50V2, VGG19, EFFicientnetV2S를 사용하며 각각 통과한 후 앙상블 됨 
    - Regression을 통해 건강 수치를 예측하고 예측된 값을 기준으로 정상 비정상 분류 
+
+## 전해탈지 시계열 데이터의 이상 탐지 프로젝트 
+세부 내용 : (https://github.com/crimama/Project_Anomaly_Detection)
+
+프로젝트 개요 
+  - 목적 : 전해탈지 공정 중 발생한 센서 데이터들을 이용해 제품의 품질을 조기 예측 및 이상 감지 
+  - 데이터 : 전해탈지 공정 중 발생한 Current, Temperature, pH 데이터 
+  - 분석 모델 
+    - 센서가 감지한 데이터 뿐만 아니라 기준치(평균)에서 벗어난 정도, 편차를 변수로 사용 
+    - 모델은 Isolation Forest 모델 사용 
   
 ## 농업 환경 변화에 따른 작물 병해 진단 AI 경진대회 
 세부 내용 : (https://github.com/crimama/Dacon_LG_AI_Competition_2022)
@@ -34,15 +44,7 @@
     - 농작물의 이미지는 Efficientnet b0, 환경 데이터는 2 Stacked Bidirectional LSTM을 사용한 Double head model 
  
 
-## 전해탈지 시계열 데이터의 이상 탐지 프로젝트 
-세부 내용 : (https://github.com/crimama/Project_Anomaly_Detection)
 
-프로젝트 개요 
-  - 목적 : 전해탈지 공정 중 발생한 센서 데이터들을 이용해 제품의 품질을 조기 예측 및 이상 감지 
-  - 데이터 : 전해탈지 공정 중 발생한 Current, Temperature, pH 데이터 
-  - 분석 모델 
-    - 센서가 감지한 데이터 뿐만 아니라 기준치(평균)에서 벗어난 정도, 편차를 변수로 사용 
-    - 모델은 Isolation Forest 모델 사용 
 
 ## CNN 을 이용한 웨이퍼 불량 분류 
 세부내용: (https://github.com/crimama/Wafer_Classification)
