@@ -2,7 +2,9 @@
 ---
 ## Run-way Functions: Predict Reconfigurations at US Airports (Open Arena)
 세부 내용 : (https://github.com/crimama/Airport_Configuration)
+
 주요 포인트 : 100기가 이상의 대용량 csv 데이터를 이용한 모델 개발 
+
 프로젝트 개요 
  - 목적 : 각 공항들의 활주로 조합 최적화를 위해 과거의 조합들을 학습하고 미래에 어떤 활주로가 활성화 될지 예측한다 
  - 데이터 : 미국 10개 공항의 공항 별 이착륙, 활주로 활성화 여부, 기상 데이터 
@@ -14,7 +16,9 @@
 ---
 ## 환자의 Brain mri 이미지 + 환자 정보를 이용한 환자 건강 정보 예측 및 분류 
 세부 내용 : (https://github.com/crimama/MRI_classification)
+
 주요 포인트 : MRI 이미지를 처리하기 위해 2.5D 형태(shape :256,256,19)로 가공하였으며, Feature Extraction을 위해 3개의 전이학습 모델 앙상블을 사용 함 
+
 프로젝트 개요  
  - 목적 : 환자 별 MRI 이미지와 정보들을 이용해 건강 정보 예측 및 분류 
  - 데이터 : 각 환자 별 19장의 Brain MRI image와 환자 정보 데이터, 측정 건강 수치 
@@ -36,7 +40,9 @@
 ---
 ## 농업 환경 변화에 따른 작물 병해 진단 AI 경진대회 
 세부 내용 : (https://github.com/crimama/Dacon_LG_AI_Competition_2022)
+
 주요 포인트 : 이미지 데이터와 시계열 데이터를 동시 사용하는 모델 개발 
+
 프로젝트 개요  
   - 목적 : 농작물의 사진과 환경 데이터를 이용해서 농작물 이름 - 병충해 종류 - 병충해 정도를 예측
   - 데이터 : 농작물 사진, 이름, 병충해 종류, 병충해 정도, 사진 촬영 당시 과거 48시간 동안의 환경 데이터 
@@ -46,7 +52,9 @@
 
 ## CNN 을 이용한 웨이퍼 불량 분류 
 세부내용: (https://github.com/crimama/Wafer_Classification)
+
 주요 포인트 : 논문 구현 시도 
+
 프로젝트 개요
   - 목적 : Wafer Bin map 이미지를 이용해 웨이퍼의 불량 여부 및 불량 종류를 분류 
   - 데이터 : Kaggle에 공개 된 Wafer Bin map 이미지 
